@@ -11,7 +11,7 @@ def solve(
     f: Optional[Callable[..., Any]] = None,
     timeout: float = 90.0,
     check_body: bool = True,
-) -> str:
+) -> dict[str, str]:
     """
     Return html after rendering javascript
 
